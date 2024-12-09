@@ -1,10 +1,13 @@
 [tool.poetry]
 name = "vadersentiment"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "VADER Sentiment Analysis. VADER (Valence Aware Dictionary and sEntiment Reasoner) is a lexicon and rule-based sentiment analysis tool that is specifically attuned to sentiments expressed in social media, and works well on texts from other domains."
+authors = ["C.J. Hutto"]
 license = "MIT"
-readme = "README.md"
+readme = "README.rst"
+
+[project.urls]
+Homepage = "https://github.com/cjhutto/vaderSentiment"
 
 [tool.poetry.dependencies]
 python = "^3.13"
